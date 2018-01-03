@@ -20,3 +20,6 @@ function dec(a){
 function makeInt(n){
   return parseInt(n,10)
 }
+function preserveDecimal(a){
+  return parseFloat(a,10)
+}
